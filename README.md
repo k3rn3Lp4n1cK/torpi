@@ -69,7 +69,7 @@ DNSPort 192.168.222.1:5353
 ```
 
 ## Configure IPTABLES v4 Rules
-TODO: add more grainular rules in INTERWEBZ CHAIN TO LOCK DOWN ONLY TOR traffic
+TODO: add more grainular rules in INTERWEBZ CHAIN to lock down only TOR traffic
 ```
 vim /etc/iptables/rules.v4
 *nat
