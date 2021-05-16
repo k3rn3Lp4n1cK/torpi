@@ -119,6 +119,8 @@ COMMIT
 -A LOGDROP -m limit --limit 5/min -j LOG --log-prefix "DROP: " --log-level 7
 -A LOGDROP -j DROP
 COMMIT
+
+iptables-restore < /etc/iptables/rules.v4
 ```
 
 ## Enable TOR service and Check Client
